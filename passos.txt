@@ -1,6 +1,8 @@
 git config --global user.name luymoon
 git config --global user.email aguiarluana780@gmail.com
 
+npx expo start --localhost --android
+
 npx create-expo-app@latest galloDelivery
 
 cd galloDelivery
@@ -11,3 +13,8 @@ Criar um arquivo Colors.ts na pasta constants
 
 Criar uma pasta components
 Criar um arquivo CustomHeader.tsx na pasta components -> rnfs
+
+npm i @gorhom/bottom-sheet
+npx expo install react-native-reanimated react-native-gesture-handle
+
+npx expo customize babel.config.js
